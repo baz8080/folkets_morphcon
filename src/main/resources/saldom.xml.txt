@@ -1,0 +1,179 @@
+<LexicalResource dtdVersion="16">
+<GlobalInformation>
+<feat att="languageCoding" val="ISO 639-3"/>
+</GlobalInformation>
+<Lexicon>
+<feat att="language" val="swe"/>
+<LexicalEntry>
+ <Lemma>
+  <FormRepresentation>
+   <feat att="writtenForm" val="föga"/>
+   <feat att="lemgram" val="föga..ab.1"/>
+   <feat att="partOfSpeech" val="ab"/>
+   <feat att="paradigm" val="ab_2_föga"/>
+  </FormRepresentation>
+ </Lemma>
+ <WordForm>
+  <feat att="writtenForm" val="föga"/>
+  <feat att="msd" val="pos"/>
+  </WordForm>
+ <WordForm>
+  <feat att="writtenForm" val="mindre"/>
+  <feat att="msd" val="komp"/>
+  </WordForm>
+ <WordForm>
+  <feat att="writtenForm" val="minst"/>
+  <feat att="msd" val="super"/>
+  </WordForm>
+ <WordForm>
+  <feat att="writtenForm" val="föga"/>
+  <feat att="msd" val="c"/>
+  </WordForm>
+ <WordForm>
+  <feat att="writtenForm" val="föga-"/>
+  <feat att="msd" val="c"/>
+  </WordForm>
+ <WordForm>
+  <feat att="writtenForm" val="föga-"/>
+  <feat att="msd" val="sms"/>
+  </WordForm>
+</LexicalEntry>
+<LexicalEntry>
+ <Lemma>
+  <FormRepresentation>
+   <feat att="writtenForm" val="bra"/>
+   <feat att="lemgram" val="bra..ab.1"/>
+   <feat att="partOfSpeech" val="ab"/>
+   <feat att="paradigm" val="ab_2_bra"/>
+  </FormRepresentation>
+ </Lemma>
+ <WordForm>
+  <feat att="writtenForm" val="bra"/>
+  <feat att="msd" val="pos"/>
+  </WordForm>
+ <WordForm>
+  <feat att="writtenForm" val="bättre"/>
+  <feat att="msd" val="komp"/>
+  </WordForm>
+ <WordForm>
+  <feat att="writtenForm" val="bäst"/>
+  <feat att="msd" val="super"/>
+  </WordForm>
+ <WordForm>
+  <feat att="writtenForm" val="bra"/>
+  <feat att="msd" val="c"/>
+  </WordForm>
+ <WordForm>
+  <feat att="writtenForm" val="bra-"/>
+  <feat att="msd" val="c"/>
+  </WordForm>
+ <WordForm>
+  <feat att="writtenForm" val="bra-"/>
+  <feat att="msd" val="sms"/>
+  </WordForm>
+</LexicalEntry>
+<LexicalEntry>
+ <Lemma>
+  <FormRepresentation>
+   <feat att="writtenForm" val="sakta"/>
+   <feat att="lemgram" val="sakta..ab.1"/>
+   <feat att="partOfSpeech" val="ab"/>
+   <feat att="paradigm" val="ab_1_fort"/>
+  </FormRepresentation>
+ </Lemma>
+ <WordForm>
+  <feat att="writtenForm" val="sakta"/>
+  <feat att="msd" val="pos"/>
+  </WordForm>
+ <WordForm>
+  <feat att="writtenForm" val="saktare"/>
+  <feat att="msd" val="komp"/>
+  </WordForm>
+ <WordForm>
+  <feat att="writtenForm" val="saktast"/>
+  <feat att="msd" val="super"/>
+  </WordForm>
+ <WordForm>
+  <feat att="writtenForm" val="sakta"/>
+  <feat att="msd" val="c"/>
+  </WordForm>
+ <WordForm>
+  <feat att="writtenForm" val="sakta-"/>
+  <feat att="msd" val="c"/>
+  </WordForm>
+ <WordForm>
+  <feat att="writtenForm" val="sakta-"/>
+  <feat att="msd" val="sms"/>
+  </WordForm>
+</LexicalEntry>
+<LexicalEntry>
+ <Lemma>
+  <FormRepresentation>
+   <feat att="writtenForm" val="ofta"/>
+   <feat att="lemgram" val="ofta..ab.1"/>
+   <feat att="partOfSpeech" val="ab"/>
+   <feat att="paradigm" val="ab_1_fort"/>
+  </FormRepresentation>
+ </Lemma>
+ <WordForm>
+  <feat att="writtenForm" val="ofta"/>
+  <feat att="msd" val="pos"/>
+  </WordForm>
+ <WordForm>
+  <feat att="writtenForm" val="oftare"/>
+  <feat att="msd" val="komp"/>
+  </WordForm>
+ <WordForm>
+  <feat att="writtenForm" val="oftast"/>
+  <feat att="msd" val="super"/>
+  </WordForm>
+ <WordForm>
+  <feat att="writtenForm" val="ofta"/>
+  <feat att="msd" val="c"/>
+  </WordForm>
+ <WordForm>
+  <feat att="writtenForm" val="ofta-"/>
+  <feat att="msd" val="c"/>
+  </WordForm>
+ <WordForm>
+  <feat att="writtenForm" val="ofta-"/>
+  <feat att="msd" val="sms"/>
+  </WordForm>
+</LexicalEntry>
+<LexicalEntry>
+ <Lemma>
+  <FormRepresentation>
+   <feat att="writtenForm" val="fort"/>
+   <feat att="lemgram" val="fort..ab.1"/>
+   <feat att="partOfSpeech" val="ab"/>
+   <feat att="paradigm" val="ab_1_fort"/>
+  </FormRepresentation>
+ </Lemma>
+ <WordForm>
+  <feat att="writtenForm" val="fort"/>
+  <feat att="msd" val="pos"/>
+  </WordForm>
+ <WordForm>
+  <feat att="writtenForm" val="fortare"/>
+  <feat att="msd" val="komp"/>
+  </WordForm>
+ <WordForm>
+  <feat att="writtenForm" val="fortast"/>
+  <feat att="msd" val="super"/>
+  </WordForm>
+ <WordForm>
+  <feat att="writtenForm" val="fort"/>
+  <feat att="msd" val="c"/>
+  </WordForm>
+ <WordForm>
+  <feat att="writtenForm" val="fort-"/>
+  <feat att="msd" val="c"/>
+  </WordForm>
+ <WordForm>
+  <feat att="writtenForm" val="fort-"/>
+  <feat att="msd" val="sms"/>
+  </WordForm>
+</LexicalEntry>
+
+</Lexicon>
+</LexicalResource>
