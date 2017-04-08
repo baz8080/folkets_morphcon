@@ -32,7 +32,6 @@ public class Main {
 
         long time = System.currentTimeMillis();
 
-
         XMLReader reader = XMLReaderFactory.createXMLReader();
         MorphologyHandler morphologyHandler = new MorphologyHandler();
         reader.setContentHandler(morphologyHandler);
@@ -41,7 +40,7 @@ public class Main {
         System.out.println("Parsed document in " + (System.currentTimeMillis() - time));
         is.close();
 
-        System.out.println(morphologyHandler.getLexicalEntries().size());
+        time = System.currentTimeMillis();
 
         Connection connection = DriverManager.getConnection("jdbc:sqlite:build/saldom.sqlite");
         connection.setAutoCommit(false);
@@ -83,6 +82,7 @@ public class Main {
         connection.commit();
 
         connection.close();
+        System.out.println("Created database in " + (System.currentTimeMillis() - time));
     }
 
     static class MorphologyHandler extends DefaultHandler {
