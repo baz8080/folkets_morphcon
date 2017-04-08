@@ -3,3 +3,12 @@ jdk:
 - oraclejdk8
 script:
 - ./scripts/travis_build.sh
+deploy:
+  provider: releases
+  api_key:
+    secure: M+9qTbPJVJVeRoPeb6RZ/K/d/L7+dytD8cc4YK4JBeV9Mu6SYWiQa26S3C1KQmT5dO8eOrror+C94m7OwXMbpvArydcr5vMiAwTqNW2vPd6yt6m8iLfcVwIlsU+w81EYGkvb2bQa3O25CRY1IHGhbpaiswdY9eLvNxYaTX857Ge6CLPIDj+7GczkJQ6YQAMLtDCsy/jBK+kC4v5/JFMmYdDQwM2CGEWuQlYfkGm99hzO2hyJODvn+7qWdEmzQ4nUAZ3gTk/FONKtOXDkMUfKux38+gskcrr36Kh5Yy3NLBSFwoHXduJ8UI+f33EuAX+fCTO4HVXtLZRwMy76Xk4yGvcjs2jf86Wy4/n7QygWGTcEUG8pqV3VtaQr7W8fTe66UI7X/oFdyYyFdB3Nlv36WfHIIh8/T8SdGk+z1w6LqlubdVfKfqVEj+4uUXyH60YNvVlLgf5AecyDlraxuDtKKPdA0JjkMuuQI9MM5waSo6xq9oCJmG0xFOYwf2RdQfxREWCczdpSyWlnhV0ZiRGgfPfsB+3Tr1ALPjJRwW9+c1BTEh5cQPUXxQobOCXgc1MTrTmFGwnjZgP4iIr0YIZXKjWquv/RXypwOMDsSX8yr8kU13TYaHDsjJj9J42hhawbv5s+zWDwioniP6xqi2io0vZ7thj8V8vEdSGgCwkdTlY=
+  file: build/saldom.sqlite
+  skip_cleanup: true
+  on:
+    repo: baz8080/folkets_morphcon
+    tags: true
